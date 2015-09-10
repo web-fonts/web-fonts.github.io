@@ -1,14 +1,35 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+title: ვებ-ფონტები
+description: "ყველა ქართული ვებ-ფონტი ერთ საიტზე!"
 url: "https://web-fonts.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username: web-fonts
+
+# enable search form
+search: true
+
+google_analytics: "UA-67400602-1"
+
+preview_text: "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ"
 
 # Build settings
 markdown: kramdown
+
+collections:
+  fonts:
+    output: true
+    permalink: /:path/
+
+
+defaults:
+  - scope:
+      type: fonts
+    values:
+      layout: font
+      author: 0
+      transform: 0
+      style: 0
+      version: 1.0.0
+      active: fonts
+
+sass:
+    style: compressed

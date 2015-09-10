@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nino Mkhedruli Bold';
+    src: url('../fonts/bpg-nino-mkhedruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mkhedruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mkhedruli-bold-webfont.svg#bpg_nino_mkhedrulibold') format('svg'); /* Legacy iOS */
+}

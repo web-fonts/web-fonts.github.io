@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Banner SuperSquare';
+    src: url('../fonts/bpg-banner-supersquare-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-banner-supersquare-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-banner-supersquare-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-banner-supersquare-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-banner-supersquare-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-banner-supersquare-webfont.svg#bpg_banner_supersquareregular') format('svg'); /* Legacy iOS */
+}

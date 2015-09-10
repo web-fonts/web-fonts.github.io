@@ -1,0 +1,12 @@
+- name: ჩვეულებრივი
+  slug: regular
+  icon: uk-icon-font
+- name: მსხვილი
+  slug: bold
+  icon: uk-icon-bold
+- name: დახრილი
+  slug: italic
+  icon: uk-icon-italic
+- name: მსხვილი და დახრილი
+  slug: bold-italic
+  icon: uk-icon-bold,uk-icon-italic

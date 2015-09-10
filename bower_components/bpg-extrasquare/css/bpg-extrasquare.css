@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG ExtraSquare';
+    src: url('../fonts/bpg-extrasquare-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-extrasquare-webfont.woff') format('woff');
+}

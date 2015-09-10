@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Nino Mkhedruli';
+    src: url('../fonts/bpg-nino-mkhedruli-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-nino-mkhedruli-webfont.woff') format('woff');
+}

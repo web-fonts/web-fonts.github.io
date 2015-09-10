@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nuskha Modern';
+    src: url('../fonts/bpg-nuskha-modern-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nuskha-modern-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nuskha-modern-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nuskha-modern-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nuskha-modern-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nuskha-modern-webfont.svg#bpg_nuskha_modernregular') format('svg'); /* Legacy iOS */
+}

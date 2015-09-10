@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nateli Mtavruli';
+    src: url('../fonts/bpg-nateli-mtavruli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nateli-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nateli-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nateli-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nateli-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nateli-mtavruli-webfont.svg#bpg_nateli_mtavruliregular') format('svg'); /* Legacy iOS */
+}

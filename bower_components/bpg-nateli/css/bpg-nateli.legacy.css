@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nateli';
+    src: url('../fonts/bpg-nateli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nateli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nateli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nateli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nateli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nateli-webfont.svg#bpg_nateliregular') format('svg'); /* Legacy iOS */
+}

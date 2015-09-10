@@ -1,0 +1,14 @@
+{
+  "name": "bpg-nuskha-modern",
+  "version": "0.0.1",
+  "description": "BPG Nuskha Modern Web Font",
+  "keywords": ["ttf", "woff", "woff2", "svg", "font", "web-font", "bpg-nuskha-modern"],
+  "main": "css/bpg-nuskha-modern.css",
+  "homepage": "https://github.com/web-fonts/bpg-nuskha-modern",
+  "author": "Lado Lomidze <lado.lomidze@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-nuskha-modern.git"
+  },
+  "license": "MIT"
+}

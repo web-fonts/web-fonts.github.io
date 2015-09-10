@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Arial';
+    src: url('../fonts/bpg-arial-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-arial-webfont.woff') format('woff');
+}

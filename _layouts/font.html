@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign slug = page.url | replace: '/', '' %}
+
+<div class="uk-button-group uk-margin-small-top uk-float-right">
+    {% if page.desktop %}<a href="{{ page.desktop }}" target="_blank" rel="nofollow" class="uk-button"><i class="uk-icon-desktop"></i> <span class="uk-hidden-small">დესკტოპ ვერსია .ttf</span></a>{% endif %}
+    <a href="https://github.com/{{ site.github_username }}/{{ slug }}" target="_blank" rel="nofollow" class="uk-button"><i class="uk-icon-github"></i> <span class="uk-hidden-small">Github-ის რეპოზიტორი</span></a>
+</div>
+
+
+<h1 class="uk-article-title uk-margin-top-remove uk-margin-large-bottom">{{ page.title }} {% if page.version %}<span class="uk-badge">v{{ page.version }}</span>{% endif %}</h1>
+
+<div class="uk-position-relative">
+    {% include font/tabs.html %}
+</div>
+
+<div class="uk-switcher uk-margin-medium-top" id="tabs">
+
+    <div class="uk-active">
+        {% include font/preview.html %}
+    </div>
+    <div>
+        {% include font/bower.html %}
+    </div>
+    <div>
+        {% include font/npm.html %}
+    </div>
+    <div>
+        {% include font/manual.html %}
+    </div>
+    <div>
+        {% include font/symbols.html %}
+    </div>
+    <div>
+
+        <p class="uk-margin-bottom-remove">
+            {{ page.title }} ვებ-ფონტ პაკეტი შეიცავს ფაილებს შემდეგი გაფართოებებით: .ttf, .eot, .woff, .woff2 და .svg, რაც იძლევა, იმის საშუალებას, რომ მხარდაჭერა ჰქონდეს ისეთ ბრაუზერებშიც კი, როგორიცაა Internet Explorer 6.
+        </p>
+
+        {% include font/browsers.html %}
+    </div>
+</div>

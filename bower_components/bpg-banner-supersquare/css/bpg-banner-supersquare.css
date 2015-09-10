@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Banner SuperSquare';
+    src: url('../fonts/bpg-banner-supersquare-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-banner-supersquare-webfont.woff') format('woff');
+}

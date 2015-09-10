@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG ExtraSquare Mtavruli';
+    src: url('../fonts/bpg-extrasquare-mtavruli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-extrasquare-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-extrasquare-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-extrasquare-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-extrasquare-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-extrasquare-mtavruli-webfont.svg#bpg_extrasquare_mtavruliregular') format('svg'); /* Legacy iOS */
+}

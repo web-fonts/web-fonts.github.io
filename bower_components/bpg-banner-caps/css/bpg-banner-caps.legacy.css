@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Banner Caps';
+    src: url('../fonts/bpg-banner-caps-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-banner-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-banner-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-banner-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-banner-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-banner-caps-webfont.svg#bpg_banner_capsregular') format('svg'); /* Legacy iOS */
+}

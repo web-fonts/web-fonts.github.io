@@ -1,0 +1,7 @@
+{% assign fonts_page = page.url | replace: 'index.html', '' | replace: '/', '' %}
+{% for font in site.fonts %}{% assign slug = font.url | replace: '/', '' %}{% if (font.url == page.url) or (fonts_page == 'fonts') %}
+    <link rel="stylesheet" href="/bower_components/{{ slug }}/css/{{ slug }}.min.css"/>{% endif %}{% endfor %}
+
+    <style>{% for font in site.fonts %}{% assign slug = font.url | replace: '/', '' %}{% if (font.url == page.url) or (fonts_page == 'fonts') %}
+        .ff-{{ slug }} { font-family: '{{ font.title }}', sans-serif; }{% endif %}{% endfor %}
+    </style>

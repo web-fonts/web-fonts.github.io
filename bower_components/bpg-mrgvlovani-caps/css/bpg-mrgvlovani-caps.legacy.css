@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Mrgvlovani Caps';
+    src: url('../fonts/bpg-mrgvlovani-caps-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-mrgvlovani-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-mrgvlovani-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-mrgvlovani-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-mrgvlovani-caps-webfont.svg#bpg_mrgvlovani_capsregular') format('svg'); /* Legacy iOS */
+}

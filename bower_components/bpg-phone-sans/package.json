@@ -1,0 +1,14 @@
+{
+  "name": "bpg-phone-sans",
+  "version": "0.0.1",
+  "description": "BPG Phone Sans Web Font",
+  "keywords": ["ttf", "woff", "woff2", "svg", "font", "web-font", "bpg-phone-sans"],
+  "main": "css/bpg-phone-sans.css",
+  "homepage": "https://github.com/web-fonts/bpg-phone-sans",
+  "author": "Lado Lomidze <lado.lomidze@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-phone-sans.git"
+  },
+  "license": "MIT"
+}

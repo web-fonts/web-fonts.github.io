@@ -1,0 +1,14 @@
+{
+  "name": "bpg-phone-sans-bold-italic",
+  "version": "0.0.1",
+  "description": "BPG Phone Sans Bold Italic Web Font",
+  "keywords": ["ttf", "woff", "woff2", "svg", "font", "web-font", "bpg-phone-sans-bold-italic"],
+  "main": "css/bpg-phone-sans-bold-italic.css",
+  "homepage": "https://github.com/web-fonts/bpg-phone-sans-bold-italic",
+  "author": "Lado Lomidze <lado.lomidze@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web-fonts/bpg-phone-sans-bold-italic.git"
+  },
+  "license": "MIT"
+}

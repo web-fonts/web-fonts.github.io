@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Algeti';
+    src: url('../fonts/bpg-algeti-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-algeti-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-algeti-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-algeti-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-algeti-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-algeti-webfont.svg#bpg_algetiregular') format('svg'); /* Legacy iOS */
+}

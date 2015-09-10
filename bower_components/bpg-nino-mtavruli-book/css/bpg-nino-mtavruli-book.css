@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Nino Mtavruli Book';
+    src: url('../fonts/bpg-nino-mtavruli-book-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-nino-mtavruli-book-webfont.woff') format('woff');
+}

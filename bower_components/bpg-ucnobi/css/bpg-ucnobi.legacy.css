@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Ucnobi';
+    src: url('../fonts/bpg-ucnobi-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-ucnobi-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-ucnobi-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-ucnobi-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-ucnobi-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-ucnobi-webfont.svg#bpg_ucnobiregular') format('svg'); /* Legacy iOS */
+}

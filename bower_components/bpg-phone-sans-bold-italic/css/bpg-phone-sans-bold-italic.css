@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Phone Sans Bold Italic';
+    src: url('../fonts/bpg-phone-sans-bold-italic-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-phone-sans-bold-italic-webfont.woff') format('woff');
+}

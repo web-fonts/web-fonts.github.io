@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+<body class="{% if page.url contains 'fonts' %}uk-body-secondary{% endif %}">
 
-    {% include header.html %}
+    <div class="wrapper">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        {% include navbar.html %}
+
+        <div class="{% unless page.active == 'home' %}uk-container uk-container-center uk-container-main{% endunless %}">
+
+            {{ content }}
+
+            <div class="uk-push"></div>
+        </div>
+
     </div>
 
     {% include footer.html %}
+    {% include scripts.html %}
 
-  </body>
-
+</body>
 </html>

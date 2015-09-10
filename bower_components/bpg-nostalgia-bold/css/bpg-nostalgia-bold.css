@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'BPG Nostalgia Bold';
+    src: url('../fonts/bpg-nostalgia-bold-webfont.woff2') format('woff2'),
+         url('../fonts/bpg-nostalgia-bold-webfont.woff') format('woff');
+}

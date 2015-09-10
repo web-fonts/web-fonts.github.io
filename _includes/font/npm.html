@@ -1,0 +1,24 @@
+<p>
+    {{ page.title }} ვებ-ფონტის დამატება თქვენს პროექტში <a href="https://www.npmjs.com/" target="_blank" rel="nofollow">NPM</a>-ის საშუალებით ძალიან მარტივია. ამისათვის საჭიროა შემდეგი საფეხურების გავლა:
+</p>
+<p>
+    1. პროექტის დირექტორიიდან ტერმინალში გამოიძახეთ შემდეგი ბრძანება:
+</p>
+
+{% highlight bash %}npm install {{ slug }} --save{% endhighlight %}
+
+<p>
+    2. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
+</p>
+
+{% highlight html %}<link rel="stylesheet" href="/node_modules/{{ slug }}/css/{{ slug }}.css">{% endhighlight %}
+
+<p>
+    3. CSS ფაილში ჩაამატეთ შემდეგი პარამეტრები:
+</p>
+
+{% highlight css %}{% include font/style.html %}{% endhighlight %}
+
+<p>
+    ან გამოიყენეთ თქვენი პროექტისთვის შესაფერისი CSS სელექტორი <code>body</code> ტეგის ნაცვლად.
+</p>

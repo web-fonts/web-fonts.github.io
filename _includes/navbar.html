@@ -1,0 +1,39 @@
+<nav class="uk-navbar uk-navbar-attached">
+    <div class="uk-container uk-container-center">
+
+        <a href="/" class="uk-navbar-brand uk-visible-small">{{ site.title }}</a>
+
+        <ul class="uk-navbar-nav uk-navbar-flip">
+
+            <li class="uk-active">
+                <a href="https://github.com/web-fonts" target="_blank" rel="nofollow" title="ვებ-ფონტები Github-ზე">
+                    <i class="uk-icon-medium uk-icon-github"></i>
+                </a>
+            </li>
+            
+            <li class="uk-parent uk-visible-small" data-uk-dropdown="{ mode: 'click' }">
+
+                <a href="" class="uk-navbar-toggle"></a>
+
+                <div class="uk-dropdown uk-dropdown-navbar">
+                    <ul class="uk-nav uk-nav-navbar">
+                        {% for item in site.data.navbar %}
+                        {% if item.visible %}
+                        <li class="{% if item.active == page.active %}uk-active{% endif %}"><a href="{{ item.url | prepend: site.baseurl }}"><i class="{{ item.icon }}"></i> {{ item.name }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+
+            </li>
+        </ul>
+
+        <ul class="uk-navbar-nav uk-hidden-small">
+            {% for item in site.data.navbar %}
+                {% if item.visible %}
+                <li class="{% if item.active == page.active %}uk-active{% endif %}"><a href="{{ item.url | prepend: site.baseurl }}"><i class="{{ item.icon }}"></i> {{ item.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>

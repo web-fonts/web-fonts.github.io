@@ -1,0 +1,157 @@
+{% assign table_classes = 'uk-table uk-table-bordered uk-table-hover uk-table-striped uk-table-condensed' %}
+
+<p>
+    ქვემოთ მოყვანილ ცხრილებში ასახულია თითოეული სიმბოლოს გამოსახულება.
+</p>
+
+<h2>ქართული ასოები</h2>
+
+<div class="uk-overflow-container">
+<table class="{{table_classes}}">
+    <tbody>
+        <tr>
+        {% for i in (4256..4266) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (4256..4266) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (4267..4277) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (4267..4277) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (4278..4288) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (4278..4288) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+            {% endfor %}
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<hr class="uk-margin-medium" />
+
+<h2>ლათინური ასოები</h2>
+
+<div class="uk-overflow-container">
+<table class="{{table_classes}}">
+    <tbody>
+
+        <tr>
+        {% for i in (97..109) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (97..109) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+
+        <tr>
+        {% for i in (110..122) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (110..122) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+
+        <tr>
+            {% for i in (65..77) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (65..77) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (78..90) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (78..90) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+            {% endfor %}
+        </tr>
+
+    </tbody>
+</table>
+</div>
+
+<hr class="uk-margin-medium" />
+
+<h2>ციფრები</h2>
+
+<div class="uk-overflow-container">
+<table class="{{table_classes}}">
+    <tbody>
+        <tr>
+            {% for i in (48..57) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for i in (48..57) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+            {% endfor %}
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<hr class="uk-margin-medium" />
+
+<h2>სხვა სიმბოლოები</h2>
+
+<div class="uk-overflow-container">
+<table class="{{table_classes}}">
+    <tbody>
+        <tr>
+        {% for i in (33..47) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (33..47) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (58..64) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        {% for i in (91..96) %}
+            <td class="uk-text-center">&amp;#{{i}};</td>
+        {% endfor %}
+        </tr>
+        <tr>
+        {% for i in (58..64) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        {% for i in (91..96) %}
+            <td class="ff-{{slug}} uk-table-td-symbol uk-text-center">&#{{i}};</td>
+        {% endfor %}
+        </tr>
+    </tbody>
+</table>
+</div>

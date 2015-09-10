@@ -1,52 +1,236 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
+@import "../_sass/syntax-highlighting";
 
+$footer-height: 200px;
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+html, body {
+  height: 100%;
+}
 
-$spacing-unit:     30px;
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto;
+  margin-bottom:  -($footer-height);
+}
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+.uk-body-secondary .wrapper {
+  background: #f9f9f9;
+}
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+.uk-panel-box-secondary-hover:hover {
+  box-shadow: 0 3px 0 0 #ddd;
+}
 
-// Width of the content area
-$content-width:    800px;
+.uk-footer, .uk-push {
+  height: $footer-height; /* .push must be the same height as .footer */
+}
 
-$on-palm:          600px;
-$on-laptop:        800px;
+.uk-navbar-nav>li>a {
+  font-weight: bold;
+}
 
+.uk-tab>li.uk-open>a, .uk-tab>li>a:focus, .uk-tab>li>a:hover,
+.uk-tab>li>a,
+.uk-link,
+.uk-link:hover,
+a {
+  color:#444;
+  text-decoration: none;
+}
 
+a:hover {
+  color:#444;
+}
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+.uk-link:hover {
+  color:#222;
+}
+
+.uk-link.uk-link-primary {
+  color:#000;
+  font-weight: normal;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed #000;
+
+  &:hover {
+    border-bottom-style: solid;
+  }
 }
 
 
+body,
+h1,
+h2,
+.uk-navbar-nav>li>a {
+  font-family: Arial, 'BPG Nateli', sans-serif;
+}
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+
+.uk-block-medium {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.uk-block-featured {
+  h1 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  a {
+    color:#333;
+    text-decoration: none;
+
+    &:hover {
+      color:#222;
+    }
+  }
+
+}
+
+.uk-table-fixed {
+  table-layout: fixed;
+}
+
+.uk-table-bordered {
+  th,
+  td {
+    border: 1px solid #ddd;
+  }
+
+  .uk-table-td-symbol {
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.uk-footer {
+  border-top: 1px solid rgba(0,0,0,.06);
+}
+
+[contenteditable] {
+  border:1px dashed transparent;
+  padding: 10px;
+}
+
+[contenteditable]:focus,
+[contenteditable]:hover {
+  outline: 0;
+  border-color:#ddd;
+}
+
+.uk-container-main {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.uk-search {
+  padding-left: 10px !important;
+}
+
+.uk-icon-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -7px;
+}
+
+.uk-icon-huge {
+  font-size: 72px;
+}
+
+.uk-navbar-nav>li>a.uk-navbar-toggle {
+  font-size: 20px;
+}
+
+.uk-margin-medium-top {
+  margin-top: 30px !important;
+}
+
+.uk-margin-medium-bottom {
+  margin-bottom: 30px !important;
+}
+
+.uk-margin-medium {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.uk-overflow-container {
+  overflow-y: hidden;
+}
+
+.uk-cursor-pointer {
+  cursor: pointer;
+}
+
+.uk-preview-field {
+  margin-top: -3px !important;
+}
+
+.f-preview {
+  line-height: 1.4;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}

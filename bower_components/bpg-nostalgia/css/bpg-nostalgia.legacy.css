@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nostalgia';
+    src: url('../fonts/bpg-nostalgia-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nostalgia-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nostalgia-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nostalgia-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nostalgia-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nostalgia-webfont.svg#bpg_nostalgiaregular') format('svg'); /* Legacy iOS */
+}

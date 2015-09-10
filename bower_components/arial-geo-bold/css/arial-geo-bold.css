@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Arial GEO Bold';
+    src: url('../fonts/arial-geo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/arial-geo-bold-webfont.woff') format('woff');
+}

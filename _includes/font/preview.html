@@ -1,0 +1,37 @@
+<form class="uk-form uk-margin-medium-bottom">
+    <div class="uk-grid uk-grid-small">
+        <div class="uk-width-small-1-1 uk-width-medium-1-4 uk-hidden-small uk-text-right uk-margin-small-top">
+            <label for="preview" class="uk-form-label">საჩვენებელი ტექსტი:</label>
+        </div>
+        <div class="uk-width-small-1-1 uk-width-medium-1-4 uk-visible-small uk-margin-bottom">
+            <label for="preview" class="uk-form-label">საჩვენებელი ტექსტი:</label>
+        </div>
+        <div class="uk-width-medium-2-4 uk-width-small-1-1 uk-margin-small-bottom">
+            <input type="text" class="uk-width-1-1 uk-form-large uk-preview-field" placeholder="{{ site.preview_text }}" id="preview" />
+        </div>
+        <div class="uk-width-medium-1-4 uk-width-small-1-1 uk-margin-small-top">
+            <input id="kbd-switcher" type="checkbox" />
+            <label for="kbd-switcher" class="uk-cursor-pointer">ქართული კლავიატურა (~)</label>
+        </div>
+    </div>
+</form>
+
+<hr>
+
+{% for i in (4...15) %}
+<div class="uk-badge uk-margin-small-bottom">ფონტის ზომა: {{ i | times:2 }}px</div>
+<div class="f-preview ff-{{ slug }} fs-{{i | times:2 }}">{{ site.preview_text }}</div>
+<hr>
+{% endfor %}
+
+<div class="uk-badge uk-margin-small-bottom">ფონტის სისქე: მსხვილი</div>
+<div class="f-preview ff-{{ slug }} fs-18 uk-text-bold">{{ site.preview_text }}</div>
+<hr>
+
+<div class="uk-badge uk-margin-small-bottom">ფონტის სტილი: დახრილი</div>
+<div class="f-preview ff-{{ slug }} fs-18 uk-text-italic">{{ site.preview_text }}</div>
+<hr>
+
+<div class="uk-badge uk-margin-small-bottom">ფონტის სტილი: მსხვილი და დახრილი</div>
+<div class="f-preview ff-{{ slug }} fs-18 uk-text-bold uk-text-italic">{{ site.preview_text }}</div>
+<hr>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Boxo';
+    src: url('../fonts/bpg-boxo-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-boxo-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-boxo-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-boxo-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-boxo-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-boxo-webfont.svg#bpg_boxoregular') format('svg'); /* Legacy iOS */
+}

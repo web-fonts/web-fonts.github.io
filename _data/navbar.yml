@@ -1,0 +1,29 @@
+- name: მთავარი
+  icon: uk-icon-home
+  url: "/"
+  active: "home"
+  visible: true
+
+- name: ვებ-ფონტები
+  icon: uk-icon-font
+  url: "/fonts"
+  active: "fonts"
+  visible: true
+
+- name: კოლექციები
+  icon: uk-icon-briefcase
+  url: "/collections"
+  active: "collections"
+  visible: true
+
+- name: "პროექტის შესახებ"
+  icon: uk-icon-info-circle
+  url: "/about"
+  active: "about"
+  visible: true
+
+- name: "ბრაუზერების მხარდაჭერა"
+  icon: uk-icon-internet-explorer
+  url: "/browser-support"
+  active: "browser-support"
+  visible: true
