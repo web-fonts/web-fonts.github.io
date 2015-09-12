@@ -14,5 +14,8 @@ bower_components/uikit/css/*
 *bower.json
 !/bower.json
 
+bower_components/**/package.json
+!/package.json
+
 README.md
-!/readme.md
+!/README.md

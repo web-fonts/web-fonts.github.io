@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BPG Phone Sans Italic';
-    src: url('../fonts/bpg-phone-sans-italic-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bpg-phone-sans-italic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bpg-phone-sans-italic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bpg-phone-sans-italic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/bpg-phone-sans-italic-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bpg-phone-sans-italic-webfont.svg#bpg_phone_sansitalic') format('svg'); /* Legacy iOS */
-}
