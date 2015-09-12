@@ -1,6 +1,6 @@
 # Site settings
 title: ვებ-ფონტები
-description: "ყველა ქართული ვებ-ფონტი ერთ საიტზე!"
+description: "ქართული ვებ-ფონტების კატალოგი"
 url: "https://web-fonts.github.io/" # the base hostname & protocol for your site
 github_username: web-fonts
 
@@ -25,6 +25,7 @@ defaults:
       type: fonts
     values:
       layout: font
+      published: true
       author: 0
       transform: 0
       style: 0
