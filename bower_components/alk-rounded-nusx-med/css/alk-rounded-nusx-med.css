@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ALK Rounded Nusx Med';
+    src: url('../fonts/alk-rounded-nusx-med-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-rounded-nusx-med-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-rounded-nusx-med-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-rounded-nusx-med-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-rounded-nusx-med-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-rounded-nusx-med-webfont.svg#alk_rounded_nusx_medregular') format('svg'); /* Legacy iOS */
+}

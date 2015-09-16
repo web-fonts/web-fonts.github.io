@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ALK Rounded Mtav Med';
+    src: url('../fonts/alk-rounded-mtav-med-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/alk-rounded-mtav-med-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/alk-rounded-mtav-med-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/alk-rounded-mtav-med-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/alk-rounded-mtav-med-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/alk-rounded-mtav-med-webfont.svg#alk_rounded_mtav_medregular') format('svg'); /* Legacy iOS */
+}
