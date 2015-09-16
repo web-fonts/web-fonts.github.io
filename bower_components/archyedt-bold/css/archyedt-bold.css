@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ArchyEDT-Bold';
+    src: url('../fonts/archyedt-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/archyedt-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/archyedt-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/archyedt-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/archyedt-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/archyedt-bold-webfont.svg#archyedt-bold') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MG BitNeon Chaos';
+    src: url('../fonts/mg-bitneon-chaos-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mg-bitneon-chaos-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mg-bitneon-chaos-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mg-bitneon-chaos-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/mg-bitneon-chaos-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mg-bitneon-chaos-webfont.svg#mg_bitneon_chaosregular') format('svg'); /* Legacy iOS */
+}

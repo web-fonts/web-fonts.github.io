@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KA_LORTKIPANIDZE';
+    src: url('../fonts/ka-lortkipanidze-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ka-lortkipanidze-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ka-lortkipanidze-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ka-lortkipanidze-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/ka-lortkipanidze-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ka-lortkipanidze-webfont.svg#ka_lortkipanidzeregular') format('svg'); /* Legacy iOS */
+}

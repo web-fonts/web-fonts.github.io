@@ -7,9 +7,8 @@ active: fonts
 
 <div id="uk-grid" class="uk-grid" data-uk-grid="{controls: '#filters', animation: false, duration: 0}">
 
-  {% assign fonts = site.fonts | sort: 'title' | reversed %}
+  {% assign fonts = site.fonts | where: 'published', true | sort: 'title' | reversed %}
   {% for font in fonts %}
-    {% if font.published %}
     {% assign slug = font.url | replace: '/', '' %}
 
     <div data-title="{{ slug }}" data-uk-filter="{% if font.transform == 1 %}uppercase{%else%}lowercase{%endif%},{{site.data.styles[font.style].slug}},{{ font.title }}" class="uk-width-1-1 uk-width-medium-1-2 uk-searchable">
@@ -31,7 +30,6 @@ active: fonts
         </a>
 
     </div>
-   {% endif %}
   {% endfor %}
 
 </div>

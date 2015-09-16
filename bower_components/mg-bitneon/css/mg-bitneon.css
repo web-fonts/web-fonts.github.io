@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MG BitNeon';
+    src: url('../fonts/mg-bitneon-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/mg-bitneon-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/mg-bitneon-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/mg-bitneon-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/mg-bitneon-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/mg-bitneon-webfont.svg#mg_bitneonregular') format('svg'); /* Legacy iOS */
+}

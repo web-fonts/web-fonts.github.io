@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KA_KOLHETI';
+    src: url('../fonts/ka-kolheti-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/ka-kolheti-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/ka-kolheti-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/ka-kolheti-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/ka-kolheti-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/ka-kolheti-webfont.svg#ka_kolhetiregular') format('svg'); /* Legacy iOS */
+}
