@@ -2,7 +2,7 @@
   "name": "web-fonts",
   "private": true,
   "dependencies": {
-    "uikit": "~2.22.0",
-    "web-fonts-all": "*"
+    "bpg-nateli": "~1.0.0",
+    "uikit": "~2.22.0"
   }
 }

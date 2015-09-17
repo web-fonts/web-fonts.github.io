@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BPG Nino Mtavruli Book';
-    src: url('../fonts/bpg-nino-mtavruli-book-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bpg-nino-mtavruli-book-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bpg-nino-mtavruli-book-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-book-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/bpg-nino-mtavruli-book-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bpg-nino-mtavruli-book-webfont.svg#bpg_nino_mtavruli_bookregular') format('svg'); /* Legacy iOS */
-}

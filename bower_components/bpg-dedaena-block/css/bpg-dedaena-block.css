@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'BPG DedaEna Block';
-    src: url('../fonts/bpg-dedaena-block-webfont.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bpg-dedaena-block-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bpg-dedaena-block-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bpg-dedaena-block-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../fonts/bpg-dedaena-block-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bpg-dedaena-block-webfont.svg#bpg_dedaena_blockregular') format('svg'); /* Legacy iOS */
-}
