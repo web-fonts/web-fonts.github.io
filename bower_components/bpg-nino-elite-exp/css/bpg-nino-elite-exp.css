@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Nino Elite Exp';
+    src: url('../fonts/bpg-nino-elite-exp-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-elite-exp-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-elite-exp-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-elite-exp-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-elite-exp-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-elite-exp-webfont.svg#bpg_nino_elite_expregular') format('svg'); /* Legacy iOS */
+}
