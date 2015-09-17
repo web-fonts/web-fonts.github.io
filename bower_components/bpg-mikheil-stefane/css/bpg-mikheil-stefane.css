@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BPG Mikheil Stefane';
+    src: url('../fonts/bpg-mikheil-stefane-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-mikheil-stefane-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-mikheil-stefane-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-mikheil-stefane-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-mikheil-stefane-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-mikheil-stefane-webfont.svg#bpg_mikheil_stefaneregular') format('svg'); /* Legacy iOS */
+}

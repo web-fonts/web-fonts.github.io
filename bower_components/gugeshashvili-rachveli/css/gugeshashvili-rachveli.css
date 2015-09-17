@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gugeshashvili_Rachveli';
+    src: url('../fonts/gugeshashvili-rachveli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/gugeshashvili-rachveli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/gugeshashvili-rachveli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/gugeshashvili-rachveli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/gugeshashvili-rachveli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/gugeshashvili-rachveli-webfont.svg#gugeshashvili_rachveliregular') format('svg'); /* Legacy iOS */
+}
