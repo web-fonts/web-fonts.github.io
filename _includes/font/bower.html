@@ -12,14 +12,6 @@
     2. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
 </p>
 
-{% highlight html %}<link rel="stylesheet" href="/bower_components/{{ slug }}/css/{{ slug }}.css">{% endhighlight %}
+{% highlight html %}<link rel="stylesheet" href="/bower_components/{{ slug }}/css/{{ slug }}.min.css">{% endhighlight %}
 
-<p>
-    3. CSS ფაილში ჩაამატეთ შემდეგი პარამეტრები:
-</p>
-
-{% highlight css %}{% include font/style.html %}{% endhighlight %}
-
-<p>
-    ან გამოიყენეთ თქვენი პროექტისთვის შესაფერისი CSS სელექტორი <code>body</code> ტეგის ნაცვლად.
-</p>
+{% include font/css.html %}

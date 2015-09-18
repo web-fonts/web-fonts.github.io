@@ -26,4 +26,4 @@ gulp.task('js:minify', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('default', ['js', 'compress']);
+gulp.task('default', ['js:merge', 'js:minify']);

@@ -3,7 +3,7 @@
 </p>
 
 <p>
-    <a href="https://github.com/web-fonts/{{ slug }}/archive/master.zip" class="uk-button uk-button-success"><i class="uk-icon-download"></i> გადმოწერეთ {{ page.title }} ვებ-ფონტის არქივი</a>
+    <a href="https://github.com/web-fonts/{{ slug }}/archive/master.zip" class="uk-button uk-button-primary"><i class="uk-icon-download"></i> გადმოწერეთ {{ page.title }} ვებ-ფონტის არქივი</a>
 </p>
 
 <p>
@@ -14,18 +14,10 @@
     2. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
 </p>
 
-{% highlight html %}<link rel="stylesheet" href="/path/to/{{ slug }}.css">{% endhighlight %}
+{% highlight html %}<link rel="stylesheet" href="/path/to/{{ slug }}.min.css">{% endhighlight %}
 
 <p class="uk-alert uk-alert-warning">
    <i class="uk-icon-warning"></i> ყურადღება! არ დაგავიწყდეთ <code>/path/to/</code> დირექტორიის შეცვლა!
 </p>
 
-<p>
-    3. CSS ფაილში ჩაამატეთ შემდეგი პარამეტრები:
-</p>
-
-{% highlight css %}{% include font/style.html %}{% endhighlight %}
-
-<p>
-    ან გამოიყენეთ თქვენი პროექტისთვის შესაფერისი CSS სელექტორი <code>body</code> ტეგის ნაცვლად.
-</p>
+{% include font/css.html %}
