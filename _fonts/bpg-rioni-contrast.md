@@ -1,4 +1,4 @@
 ---
-title: BPG Rioni Arial
-desktop: http://fonts.ge/ka/font/185/BPG-Rioni-Arial
+title: BPG Rioni Contrast
+desktop: http://fonts.ge/ka/font/188/BPG-Rioni-Contrast
 ---

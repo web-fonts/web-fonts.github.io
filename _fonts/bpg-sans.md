@@ -1,4 +1,4 @@
 ---
-title: BPG Rioni
-desktop: http://fonts.ge/ka/font/184/BPG-Rioni
+title: BPG Sans
+desktop: http://fonts.ge/ka/font/177/BPG-Sans-%28w-cyrillic%29
 ---

@@ -1,4 +1,4 @@
 ---
-title: BPG Rioni Contrast
-desktop: http://fonts.ge/ka/font/188/BPG-Rioni-Contrast
+title: BPG Rioni Vera Condensed Light
+desktop: http://fonts.ge/ka/font/187/BPG-Rioni-Vera-Condensed-Light
 ---
