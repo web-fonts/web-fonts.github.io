@@ -1,7 +1,7 @@
 # Site settings
 title: ვებ-ფონტები
 description: "ქართული ვებ-ფონტების კატალოგი"
-url: "https://web-fonts.github.io/" # the base hostname & protocol for your site
+url: "https://web-fonts.ge" # the base hostname & protocol for your site
 github_username: web-fonts
 
 # enable search form

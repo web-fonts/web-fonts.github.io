@@ -5,6 +5,15 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ site.url }}/dist/images/logo.jpg" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace : 'index.html', '' }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:locale" content="ka_GE" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
     <link rel="stylesheet" href="/bower_components/uikit/css/uikit.almost-flat.min.css">
     <link rel="stylesheet" href="/bower_components/bpg-nateli/css/bpg-nateli.min.css">
     <link rel="stylesheet" href="/css/app.css">
