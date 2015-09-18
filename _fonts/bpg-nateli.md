@@ -1,5 +1,5 @@
 ---
 title: BPG Nateli
-popular: true
+popular: 800
 desktop: http://fonts.ge/ka/font/662/BPG-Nateli-Regular
 ---
