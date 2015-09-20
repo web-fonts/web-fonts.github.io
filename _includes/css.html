@@ -1,5 +1,5 @@
 {% assign fonts_page = page.url | replace: 'index.html', '' | replace: '/', '' %}
-{% for font in site.fonts %}{% assign slug = font.url | replace: '/', '' %}{% if (font.url == page.url) %}
+{% for font in site.fonts %}{% assign slug = font.url | replace: '/', '' %}{% if (font.url == page.url) or (fonts_page == 'fonts') %}
     <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/{{ slug }}/css/{{ slug }}.min.css"/>{% endif %}{% endfor %}
 
     <style>{% for font in site.fonts %}{% assign slug = font.url | replace: '/', '' %}{% if (font.url == page.url) or (fonts_page == 'fonts') %}
