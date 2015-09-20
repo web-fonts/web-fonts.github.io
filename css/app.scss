@@ -234,3 +234,27 @@ h2,
 .fs-30 {
   font-size: 30px;
 }
+
+.uk-loading-show {
+  display: none;
+}
+
+.uk-loading {
+
+  .uk-icon-spin {
+    color:#00a8e6;
+  }
+
+  .uk-loading-show {
+    display: block;
+    height: 33px;
+  }
+
+  .uk-loading-hide {
+    display: none;
+  }
+}
+
+.uk-date {
+  padding-bottom: 2px;
+}

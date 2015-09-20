@@ -5,7 +5,7 @@
             <ul class="uk-list uk-list-line">
                 {% assign popular_fonts = site.fonts | sort: 'popular' | reverse %}
                 {% for font in popular_fonts limit:10 %}
-                <li><a class="uk-display-block" href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}</a></li>
+                <li><a href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}</a></li>
                 {% endfor %}
             </ul>
             <div class="uk-margin-large-bottom uk-visible-small"></div>
@@ -15,8 +15,10 @@
             <ul class="uk-list uk-list-line">
                 {% assign new_fonts = site.fonts | sort: 'published_at' | reverse %}
                 {% for font in new_fonts limit:10 %}
-                <li><a class="uk-display-block uk-position-relative" href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}
-                    <span class="uk-badge uk-position-absolute uk-position-top-right">{{ font.published_at | date: '%d-%m' }}</span></a></li>
+                <li class="uk-position-relative">
+                    <a href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}</a>
+                    <span class="uk-date uk-text-small uk-text-muted uk-position-absolute uk-position-bottom-right">{{ font.published_at | date: '%d.%m' }}</span>
+                </li>
                 {% endfor %}
             </ul>
             <div class="uk-margin-large-bottom uk-visible-small"></div>

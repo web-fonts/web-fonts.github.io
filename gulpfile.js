@@ -10,6 +10,7 @@ var js = [
     './bower_components/uikit/js/core/switcher.js',
     './bower_components/uikit/js/core/dropdown.js',
     './src/js/jquery.geokbd.js',
+    './src/js/fontdetect.js',
     './src/js/script.js'
 ];
 

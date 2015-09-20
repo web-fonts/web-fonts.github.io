@@ -1,5 +1,34 @@
 $(function() {
 
+    function to_slug(str) {
+        return str.toLowerCase().replace(/ /g, '-').replace(/_/g, '-');
+    }
+
+    function loadCss(url) {
+        var link = document.createElement("link");
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.href = url;
+        document.getElementsByTagName("head")[0].appendChild(link);
+    }
+
+    if(typeof fonts != 'undefined' && isFontsPage) {
+        fonts.forEach(function(font) {
+
+            var slug = to_slug(font);
+            var el = $('#' + slug);
+
+            FontDetect.onFontLoaded(font, function() {
+                el.removeClass('uk-loading');
+            }, function() {
+                el.find('.uk-loading-show').text('სამწუხაროდ, ფონტი ვერ ჩაიტვირთა :(')
+            }, { msTimeout: 300000 }); // try for 5m
+
+            loadCss('//cdn.web-fonts.ge/fonts/'+slug+'/css/'+slug+'.min.css');
+
+        });
+    }
+
     $('#kbd-switcher').geokbd();
 
     var $body = $('body'),

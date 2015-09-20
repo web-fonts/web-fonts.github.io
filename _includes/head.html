@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/css/app.css">
     {% include css.html %}
     <script>
+        var isFontsPage = {% if page.current == 'fonts' %}true{%else%}false{% endif %};
         var preview_text = "{{ site.preview_text }}";
         {% if page.active == 'fonts' %}var fonts = [{% for font in site.fonts %}"{{ font.title }}"{% if forloop.rindex0 > 0 %},{% endif %}{% endfor %}];{% endif %}
     </script>
