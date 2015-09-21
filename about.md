@@ -2,6 +2,7 @@
 layout: page
 title: პროექტის შესახებ
 active: about
+permalink: /about/
 icon: uk-icon-info-circle
 ---
 

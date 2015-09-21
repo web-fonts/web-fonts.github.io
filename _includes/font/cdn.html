@@ -10,13 +10,13 @@
     1. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
 </p>
 
-{% highlight html %}<link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/{{ slug }}/css/{{ slug }}.min.css">{% endhighlight %}
+{% highlight html %}<link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/{{ page.title | slugify }}/css/{{ page.title | slugify }}.min.css">{% endhighlight %}
 
 <p>
     ან CSS ფაილის დასაწყისში ჩაამატეთ შემდეგი კოდი:
 </p>
 
-{% highlight css %}@import url("//cdn.web-fonts.ge/fonts/{{ slug }}/css/{{ slug }}.min.css");{% endhighlight %}
+{% highlight css %}@import url("//cdn.web-fonts.ge/fonts/{{ page.title | slugify }}/css/{{ page.title | slugify }}.min.css");{% endhighlight %}
 
 <p>
     2. CSS-ში, თქვენთვის სასურველ სელექტორს დაუმატეთ შემდეგი პარამეტრი:

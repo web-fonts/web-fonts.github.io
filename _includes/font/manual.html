@@ -3,7 +3,7 @@
 </p>
 
 <p>
-    <a href="https://github.com/web-fonts/{{ slug }}/archive/master.zip" class="uk-button uk-button-primary"><i class="uk-icon-download"></i> გადმოწერეთ {{ page.title }} ვებ-ფონტის არქივი</a>
+    <a href="https://github.com/web-fonts/{{ page.title | slugify }}/archive/master.zip" class="uk-button uk-button-primary"><i class="uk-icon-download"></i> გადმოწერეთ {{ page.title }} ვებ-ფონტის არქივი</a>
 </p>
 
 <p>
@@ -14,7 +14,7 @@
     2. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
 </p>
 
-{% highlight html %}<link rel="stylesheet" href="/path/to/{{ slug }}.min.css">{% endhighlight %}
+{% highlight html %}<link rel="stylesheet" href="/path/to/{{ page.title | slugify }}.min.css">{% endhighlight %}
 
 <p class="uk-alert uk-alert-warning">
    <i class="uk-icon-warning"></i> ყურადღება! არ დაგავიწყდეთ <code>/path/to/</code> დირექტორიის შეცვლა!

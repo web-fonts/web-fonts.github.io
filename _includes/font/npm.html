@@ -5,12 +5,12 @@
     1. პროექტის დირექტორიიდან ტერმინალში გამოიძახეთ შემდეგი ბრძანება:
 </p>
 
-{% highlight bash %}npm install {{ slug }} --save{% endhighlight %}
+{% highlight bash %}npm install {{ page.title | slugify }} --save{% endhighlight %}
 
 <p>
     2. ჩასვით ქვემოთ მოცემული კოდი HTML-ში, <code>&lt;head&gt;...&lt;/head&gt;</code> ტეგებს შორის:
 </p>
 
-{% highlight html %}<link rel="stylesheet" href="/node_modules/{{ slug }}/css/{{ slug }}.min.css">{% endhighlight %}
+{% highlight html %}<link rel="stylesheet" href="/node_modules/{{ page.title | slugify }}/css/{{ page.title | slugify }}.min.css">{% endhighlight %}
 
 {% include font/css.html %}

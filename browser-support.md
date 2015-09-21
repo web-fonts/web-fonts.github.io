@@ -2,6 +2,7 @@
 layout: page
 title: ბრაუზერების მხარდაჭერა
 active: browser-support
+permalink: /browser-support/
 icon: uk-icon-internet-explorer
 ---
 
