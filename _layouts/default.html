@@ -3,7 +3,7 @@
 
     {% include head.html %}
 
-<body class="{% if page.url contains 'fonts' %}uk-body-secondary{% endif %}">
+<body class="{% if (page.url contains 'fonts') or (page.url contains 'collections') %}uk-body-secondary{% endif %}">
 
     <div class="wrapper">
 

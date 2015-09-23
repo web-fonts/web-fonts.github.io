@@ -5,7 +5,7 @@
             <ul class="uk-list uk-list-line">
                 {% assign popular_fonts = site.fonts | sort: 'popular' | reverse %}
                 {% for font in popular_fonts limit:10 %}
-                <li><a href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}</a></li>
+                <li><a href="{{ font.url }}">{{ font.title }}</a></li>
                 {% endfor %}
             </ul>
             <div class="uk-margin-large-bottom uk-visible-small"></div>
@@ -16,7 +16,7 @@
                 {% assign new_fonts = site.fonts | sort: 'published_at' | reverse %}
                 {% for font in new_fonts limit:10 %}
                 <li class="uk-position-relative">
-                    <a href="{{ font.url | prepend: site.baseurl }}">{{ font.title }}</a>
+                    <a href="{{ font.url }}">{{ font.title }}</a>
                     <span class="uk-date uk-text-small uk-text-muted uk-position-absolute uk-position-bottom-right">{{ font.published_at | date: '%d.%m' }}</span>
                 </li>
                 {% endfor %}
@@ -24,8 +24,16 @@
             <div class="uk-margin-large-bottom uk-visible-small"></div>
         </div>
         <div class="uk-width-medium-1-3 uk-width-small-1-1">
-            <h2 class="uk-margin-large-bottom"><i class="uk-icon-calendar"></i> ახალი კოლექციები</h2>
-            <h1 class="uk-text-center uk-margin-large-top">მალე!</h1>
+            <h2><i class="uk-icon-briefcase"></i> კოლექციები</h2>
+            <ul class="uk-list uk-list-line">
+                {% assign font_collections = site.font_collections | sort: 'priority' | reverse %}
+                {% for collection in font_collections limit:10 %}
+                <li class="uk-position-relative">
+                    <a href="{{ collection.url }}">{{ collection.title }}</a>
+                    <span class="uk-date uk-text-small uk-text-muted uk-position-absolute uk-position-bottom-right">{{ collection.fonts | size }} ფონტი</span>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
     </div>
 </div>

@@ -1,0 +1,40 @@
+---
+layout: default
+active: collections
+---
+
+<h1 class="uk-text-center uk-article-title">{{ page.title }}</h1>
+
+<hr class="uk-margin-medium"/>
+
+<p class="uk-text-center">
+    კოლექციაში შესულია: {{ page.fonts | size }} ვებ-ფონტი
+</p>
+
+<div class="uk-grid">
+
+    {% for font in site.fonts %}
+        {% if page.fonts contains font.title %}
+        <div class="uk-width-1-1 uk-width-medium-1-2 uk-searchable">
+
+            <a href="{{ font.url }}" class="uk-panel uk-panel-box uk-panel-box-secondary uk-panel-box-secondary-hover uk-panel-header uk-margin-large-top">
+
+                <span class="uk-panel-badge">
+                    {% if font.version %}<span class="uk-badge uk-version">v{{ font.version }}</span>{% endif %}
+                    {% if font.new %}<span class="uk-badge uk-badge-danger">ახალი</span>{% endif %}
+                </span>
+
+                <h3 class="uk-panel-title">{{ font.title }}</h3>
+                <h2 class="f-preview ff-{{ font.title | slugify }} uk-text-truncate">{{ site.preview_text }}</h2>
+                <p class="uk-text-truncate">
+                    {% if font.style %}სტილი: <strong class="uk-text-bold">{{ site.data.styles[font.style].name }}</strong>{% endif %}{% if font.transform %}, <strong class="uk-text-bold">{{ site.data.transform[font.transform] }}.</strong> {% endif %}
+                    {% if font.author %}ავტორი: <strong>{{ site.data.authors[font.author].name }}</strong>{% endif %}
+                </p>
+
+            </a>
+
+        </div>
+        {% endif %}
+    {% endfor %}
+
+</div>

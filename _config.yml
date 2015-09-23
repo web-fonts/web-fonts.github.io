@@ -19,6 +19,10 @@ collections:
     output: true
     permalink: /:path/
 
+  font_collections:
+    output: true
+    permalink: /collections/:path/
+
 
 defaults:
   - scope:
