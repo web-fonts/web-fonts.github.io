@@ -1,8 +1,8 @@
 {% assign fonts_page = page.url | replace: 'index.html', '' | replace: '/', '' %}
 {% if page.layout == 'collection' %}{% assign fonts = page.fonts %}{% else %}{% assign fonts = site.fonts %}{% endif %}
-{% for font in fonts %}{% if (font.url == page.url) or (fonts_page == 'fonts') or (page.layout == 'collection') %}{% if page.layout == 'collection' %}{% assign font_name = font %}{%else%}{% assign font_name = font.title %}{%endif%}
-    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/{{ font_name | slugify }}/css/{{ font_name | slugify }}.min.css"/>{% endif %}{% endfor %}
-
+{% if page.layout == 'font' %}
+    <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/{{ page.title | slugify }}/css/{{ page.title | slugify }}.min.css"/>
+{% endif %}
     <style>{% for font in fonts %}{% if (font.url == page.url) or (fonts_page == 'fonts') or (page.layout == 'collection')  %}{% if page.layout == 'collection' %}{% assign font_name = font %}{%else%}{% assign font_name = font.title %}{%endif%}
-        .ff-{{ font_name | slugify }} { font-family: '{{ font_name }}', sans-serif; }{% endif %}{% endfor %}
+        .ff-{{ font_name | slugify }} { font-family: '{{ font_name }}'; }{% endif %}{% endfor %}
     </style>

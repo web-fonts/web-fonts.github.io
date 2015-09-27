@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "bpg-nateli": "~1.0.0",
-    "uikit": "~2.22.0"
+    "uikit": "~2.22.0",
+    "waypoints": "~4.0.0"
   }
 }

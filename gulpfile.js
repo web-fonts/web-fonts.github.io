@@ -9,8 +9,10 @@ var js = [
     './bower_components/uikit/js/components/grid.js',
     './bower_components/uikit/js/core/switcher.js',
     './bower_components/uikit/js/core/dropdown.js',
+    './bower_components/waypoints/lib/jquery.waypoints.js',
     './src/js/jquery.geokbd.js',
-    //'./src/js/fontdetect.js',
+    './src/js/fontdetect.js',
+    './src/js/font-loader.js',
     './src/js/script.js'
 ];
 
