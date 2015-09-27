@@ -18,6 +18,7 @@
 
 <hr>
 
+<div class="uk-overflow-container">
 {% for i in (4...15) %}
 <div class="uk-badge uk-margin-small-bottom">ფონტის ზომა: {{ i | times:2 }}px</div>
 <div class="f-preview ff-{{ page.title | slugify }} fs-{{i | times:2 }}">{{ site.preview_text }}</div>
@@ -35,3 +36,4 @@
 <div class="uk-badge uk-margin-small-bottom">ფონტის სტილი: მუქი და დახრილი</div>
 <div class="f-preview ff-{{ page.title | slugify }} fs-18 uk-text-bold uk-text-italic">{{ site.preview_text }}</div>
 <hr>
+</div>
