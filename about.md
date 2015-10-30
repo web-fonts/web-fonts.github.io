@@ -7,11 +7,11 @@ icon: uk-icon-info-circle
 ---
 
 <p>
-    პროექტი დაარსდა 2015 წელს და მისი მიზანია ქართული ვებ-ფონტები ხელმისაწვდომის გახდეს <a class="uk-link uk-link-primary" href="http://bower.io/" target="_blank" rel="nofollow">Bower</a>-ის და <a class="uk-link uk-link-primary" href="https://www.npmjs.com/" target="_blank" rel="nofollow">NPM</a>-ის პაკეტების სახით.
+    პროექტი მიზნად ისახავს, ქართული ვებ-ფონტები გახადოს ხელმისაწვდომი <a class="uk-link uk-link-primary" href="http://bower.io/" target="_blank" rel="nofollow">Bower</a>-ის და <a class="uk-link uk-link-primary" href="https://www.npmjs.com/" target="_blank" rel="nofollow">NPM</a>-ის პაკეტების სახით.
 </p>
 
 <p>
-    ყველა ვებ-ფონტი, რომელიც განთავსებულია ჩვენს ვებ-გვერდზე, მოპოვებულია <a class="uk-link uk-link-primary" href="http://fonts.ge/" target="_blank" rel="nofollow">fonts.ge</a>-დან, სადაც ფონტები გამოქვეყნებულია მათივე ავტორების მიერ.
+    web-fonts.ge-ზე განთავსებული ვებ-ფონტების უმეტესობა, მოპოვებულია <a class="uk-link uk-link-primary" href="http://fonts.ge/" target="_blank" rel="nofollow">fonts.ge</a>-დან, სადაც ფონტები გამოქვეყნებულია მათივე ავტორების მიერ.
 </p>
 
 <p>
@@ -43,7 +43,7 @@ icon: uk-icon-info-circle
     <li>კლიენტის მხარე, ანუ რასაც თქვენ ხედავთ, აწყობილია <a class="uk-link uk-link-primary" href="http://getuikit.com/" target="_blank" rel="nofollow">UIkit</a> ფრეიმვორკზე.</li>
     <li>იკონები, რომლებიც გამოყენებულია ვებ-გვერდის დიზაინში, ყველასათვის კარგად ნაცნობი <a class="uk-link uk-link-primary" href="http://fontawesome.io/" target="_blank" rel="nofollow">Font Awesome</a>-ია, რომელიც სტანდარტულად მოყვება
         <a class="uk-link uk-link-primary" href="http://getuikit.com/docs/icon.html" target="_blank" rel="nofollow">UIkit</a>-ს.</li>
-    <li>ეს ვებ-გვერდი განთავსებულია <a class="uk-link uk-link-primary" href="https://pages.github.com/" target="_blank" rel="nofollow">Github Pages</a>-ზეა, რომელიც იდეალური და უფასო სერვისია მსგავსი პროექტებისთვის.</li>
+    <li>ვებ-გვერდი განთავსებულია <a class="uk-link uk-link-primary" href="https://pages.github.com/" target="_blank" rel="nofollow">Github Pages</a>-ზეა, რომელიც იდეალური და უფასო სერვისია მსგავსი პროექტებისთვის.</li>
     <li>ვებ-გვერდის კოდი <a class="uk-link uk-link-primary" href="https://github.com/web-fonts/web-fonts.github.io" target="_blank" rel="nofollow">ჩვენს რეპოზიტორზე</a> დევს, საიდანაც ნებისმიერ მსურველს შეუძლია ამ პროექტის რედაქტირება და გაუმჯობესება.</li>
 </ul>
 
