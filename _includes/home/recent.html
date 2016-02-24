@@ -17,7 +17,7 @@
                 {% for font in new_fonts limit:10 %}
                 <li class="uk-position-relative">
                     <a href="{{ font.url }}">{{ font.title }}</a>
-                    <span class="uk-date uk-text-small uk-text-muted uk-position-absolute uk-position-bottom-right">{{ font.published_at | date: '%d.%m' }}</span>
+                    <span class="uk-date uk-text-small uk-text-muted uk-position-absolute uk-position-bottom-right">{{ font.published_at | date: '%d.%m.%y' }}</span>
                 </li>
                 {% endfor %}
             </ul>
