@@ -43,8 +43,8 @@ icon: uk-icon-info-circle
     <li>კლიენტის მხარე, ანუ რასაც თქვენ ხედავთ, აწყობილია <a class="uk-link uk-link-primary" href="http://getuikit.com/" target="_blank" rel="nofollow">UIkit</a> ფრეიმვორკზე.</li>
     <li>იკონები, რომლებიც გამოყენებულია ვებ-გვერდის დიზაინში, ყველასათვის კარგად ნაცნობი <a class="uk-link uk-link-primary" href="http://fontawesome.io/" target="_blank" rel="nofollow">Font Awesome</a>-ია, რომელიც სტანდარტულად მოყვება
         <a class="uk-link uk-link-primary" href="http://getuikit.com/docs/icon.html" target="_blank" rel="nofollow">UIkit</a>-ს.</li>
-    <li>ვებ-გვერდი განთავსებულია <a class="uk-link uk-link-primary" href="https://pages.github.com/" target="_blank" rel="nofollow">Github Pages</a>-ზეა, რომელიც იდეალური და უფასო სერვისია მსგავსი პროექტებისთვის.</li>
-    <li>ვებ-გვერდის კოდი <a class="uk-link uk-link-primary" href="https://github.com/web-fonts/web-fonts.github.io" target="_blank" rel="nofollow">ჩვენს რეპოზიტორზე</a> დევს, საიდანაც ნებისმიერ მსურველს შეუძლია ამ პროექტის რედაქტირება და გაუმჯობესება.</li>
+    <li>ვებ-გვერდი განთავსებულია <a class="uk-link uk-link-primary" href="https://pages.github.com/" target="_blank" rel="nofollow">GitHub Pages</a>-ზე, რომელიც იდეალური და უფასო სერვისია მსგავსი პროექტებისთვის.</li>
+    <li>ვებ-გვერდის კოდი <a class="uk-link uk-link-primary" href="https://github.com/web-fonts/web-fonts.github.io" target="_blank" rel="nofollow">ჩვენს რეპოზიტორიაზე</a> დევს, საიდანაც ნებისმიერ მსურველს შეუძლია ამ პროექტის რედაქტირება და გაუმჯობესება.</li>
 </ul>
 
 <h2><i class="uk-icon-copyright"></i> ლიცენზია და საავტორო უფლებები</h2>
